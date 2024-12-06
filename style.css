@@ -1,0 +1,82 @@
+@media screen and (min-width:320px){
+
+article{
+    border: solid;
+}
+
+#name{/*name section*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav{/*nav section*/
+    display: flex;
+    justify-content: flex-end;
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .gitlogo{
+        display: none;
+    }
+}
+
+
+
+#web{/*web section*/
+    display: flex;
+    justify-content: flex-start;
+    article{
+        display: flex;
+        justify-content: center;
+        p{
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}
+
+#python{/*python section*/
+    display: flex;
+    justify-content: flex-end;
+    article{
+        display: flex;
+        justify-content: center;
+        p{
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}
+
+
+
+#blender{/*blender section*/
+    display: flex;
+    justify-content: flex-start;
+    article{
+        display: flex;
+        justify-content: center;
+        p{
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}
+
+#apk{/*app section*/
+    display: flex;
+    justify-content: flex-end;
+    article{
+        display: flex;
+        justify-content: center;
+        p{
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}
+
+
+
+}
