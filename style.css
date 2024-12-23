@@ -7,18 +7,31 @@
 
 #name{/*name section*/
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    font-family: tiny5;
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size:400%;
+    }
+    p{
+        font-family: merienda;
+        font-size: 200%;
+        color:white;
+    }
 }
 
 #nav{/*nav section*/
-    display: flex;
-    justify-content: flex-end;
     nav{
         display: flex;
-        flex-direction: column;
-    }
-    .gitlogo{
-        display: none;
+        justify-content: space-evenly;
+        img{
+            border:dashed;
+            border-radius: 15px;
+            border-color: white;
+            padding:3%;
+            width:80%;
+        }
     }
 }
 
@@ -26,11 +39,17 @@
 
 #web{/*web section*/
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    padding:10%;
+    
     article{
         display: flex;
         justify-content: center;
         perspective: 1000px;
+        padding:5%;
+        border:dashed;
+        border-radius: 15px;
+        border-color:white;
         .card{
             width:300px;
             height:600px;
@@ -66,7 +85,8 @@
 
 #python{/*python section*/
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    padding: 10%;
     img{
         width:100%;
         height: 100%;
@@ -74,6 +94,10 @@
     article{
         display: flex;
         justify-content: center;
+        border:dashed;
+        border-radius: 15px;
+        border-color:white;
+        padding:1%;
         .card{
             width:300px;
             height:300px;
@@ -110,8 +134,14 @@
 }
 
 
-
-
+#blender {
+    border:dashed;
+    border-radius: 15px;
+    border-color:white;
+    padding:1%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
   /* Carousel Container */
   #blender .carousel {
     width: 100%; /* Full width of the parent container */
@@ -123,6 +153,8 @@
     margin: 0 auto; /* Center the carousel */
     display: flex;
     align-items: center; /* Vertically center slides */
+
+    
   }
   
   /* Carousel Track */
@@ -161,13 +193,18 @@
 
 #apk{/*app section*/
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    padding:10%;
     img{
         height: 100%;
     }
     article{
         display: flex;
         justify-content: center;
+        border:dashed;
+        border-radius: 15px;
+        border-color:white;
+        padding:1%;
         .card{
             width:300px;
             height:600px;
